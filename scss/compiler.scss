@@ -4,3 +4,20 @@
     margin: 0;
     padding: 0;
 }
+
+// -------------------------
+//   TUTULO HTML Y CSS
+// -------------------------
+
+.titulo_html_css {
+    border: 1px dashed red;
+
+    .titulo_container {
+        border: 1px dashed blue;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
