@@ -13,34 +13,34 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.titulo_html_css {
+.titulo_academia {
   background-color: #b8b8b8;
   border-radius: 0px 0px 10px 10px;
   padding: 10px 0px;
 }
-.titulo_html_css .titulo_container {
+.titulo_academia .titulo_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.titulo_html_css .titulo_container figure {
+.titulo_academia .titulo_container figure {
   margin: 0;
   height: 4rem;
   width: 4rem;
 }
-.titulo_html_css .titulo_container figure img {
+.titulo_academia .titulo_container figure img {
   width: 100%;
 }
-.titulo_html_css .titulo_container div {
+.titulo_academia .titulo_container div {
   margin-left: 20px;
 }
-.titulo_html_css .titulo_container div h1 {
+.titulo_academia .titulo_container div h1 {
   color: #4c4c4c;
   font-family: "Righteous", cursive;
   margin: 0;
 }
-.titulo_html_css .titulo_container div h1 span {
+.titulo_academia .titulo_container div h1 span {
   color: #ffffff;
 }
 
@@ -61,6 +61,43 @@ body {
 .presentacion .presentacion_container .presentacion_titulo {
   font-family: "Josefin Sans", sans-serif;
   color: #b8b8b8;
+}
+
+.lenguajes_fluid {
+  border: 1px dashed yellow;
+  margin-top: 20px;
+  height: 80px;
+}
+.lenguajes_fluid .lenguajes_container {
+  border: 1px dashed orangered;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.lenguajes_fluid .lenguajes_container .card_html {
+  background-color: #b8b8b8;
+  border-radius: 5px;
+  padding: 15px;
+  width: 300px;
+  height: 80px;
+  -webkit-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.63);
+  box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.63);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.lenguajes_fluid .lenguajes_container .card_html h3 {
+  margin: 0;
+  font-family: "Righteous", cursive;
+  color: #4c4c4c;
+}
+.lenguajes_fluid .lenguajes_container .card_html img {
+  width: auto;
+  height: 100%;
 }
 
 /*# sourceMappingURL=monitor.css.map */
