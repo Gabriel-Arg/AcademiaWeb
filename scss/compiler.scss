@@ -71,6 +71,8 @@ body {
     .presentacion_container {
         // border: 1px dashed blue;
         height: auto;
+        padding: 0;
+        margin: 0;
 
         display: flex;
         flex-direction: column;
@@ -79,6 +81,8 @@ body {
 
         .presentacion_animacion {
             // border: 1px dashed wheat;
+            margin: 0;
+            padding: 0;
             
             .motor_animacion {
                 // border: 1px solid blue;
@@ -99,12 +103,12 @@ body {
 // -------------------------
 
 .lenguajes_fluid {
-    border: 1px dashed yellow;
+    // border: 1px dashed yellow;
     margin-top: 20px;
     height: 80px;
 
     .lenguajes_container {
-        border: 1px dashed orangered;
+        // border: 1px dashed orangered;
         height: 80px;
 
         display: flex;

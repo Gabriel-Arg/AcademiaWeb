@@ -49,10 +49,16 @@ body {
 }
 .presentacion .presentacion_container {
   height: auto;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+.presentacion .presentacion_container .presentacion_animacion {
+  margin: 0;
+  padding: 0;
 }
 .presentacion .presentacion_container .presentacion_animacion .motor_animacion {
   width: 200px;
@@ -64,12 +70,10 @@ body {
 }
 
 .lenguajes_fluid {
-  border: 1px dashed yellow;
   margin-top: 20px;
   height: 80px;
 }
 .lenguajes_fluid .lenguajes_container {
-  border: 1px dashed orangered;
   height: 80px;
   display: flex;
   flex-direction: row;
