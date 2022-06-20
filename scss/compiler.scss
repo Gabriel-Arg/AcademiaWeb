@@ -24,7 +24,7 @@ body {
 
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
 
         figure {
@@ -53,5 +53,39 @@ body {
             }
         }
         
+    }
+}
+
+// -------------------------
+//   PRESENTACIÓN
+// -------------------------
+
+.presentacion {
+    // border: 1px dashed yellow;
+    height: auto;
+
+    .presentacion_container {
+        // border: 1px dashed blue;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .presentacion_animacion {
+            // border: 1px dashed wheat;
+            width: 200px;
+            height: 200px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .presentacion_titulo {
+            font-family: $fuente-parrafo;
+            color: $color-gris-claro;
+        }
     }
 }

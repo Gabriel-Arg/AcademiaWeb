@@ -15,7 +15,7 @@ body {
 .titulo_html_css .titulo_container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 .titulo_html_css .titulo_container figure {
@@ -36,6 +36,28 @@ body {
 }
 .titulo_html_css .titulo_container div h1 span {
   color: #ffffff;
+}
+
+.presentacion {
+  height: auto;
+}
+.presentacion .presentacion_container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.presentacion .presentacion_container .presentacion_animacion {
+  width: 200px;
+  height: 200px;
+}
+.presentacion .presentacion_container .presentacion_animacion img {
+  width: 100%;
+}
+.presentacion .presentacion_container .presentacion_titulo {
+  font-family: "Josefin Sans", sans-serif;
+  color: #b8b8b8;
 }
 
 /*# sourceMappingURL=monitor.css.map */
