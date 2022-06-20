@@ -48,12 +48,9 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.presentacion .presentacion_container .presentacion_animacion {
+.presentacion .presentacion_container .presentacion_animacion .motor_animacion {
   width: 200px;
   height: 200px;
-}
-.presentacion .presentacion_container .presentacion_animacion img {
-  width: 100%;
 }
 .presentacion .presentacion_container .presentacion_titulo {
   font-family: "Josefin Sans", sans-serif;
