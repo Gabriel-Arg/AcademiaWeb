@@ -7,7 +7,10 @@
 }
 
 body {
-    background-color: $color-gris-oscuro;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 // -------------------------
@@ -17,6 +20,7 @@ body {
 .titulo_html_css {
     // border: 1px dashed red;
     background-color: $color-gris-claro;
+    border-radius: 0px 0px 10px 10px;
     padding: 10px 0px;
 
     .titulo_container {
