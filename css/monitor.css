@@ -35,9 +35,48 @@ body {
   color: #8892b0;
   font-family: "Anek Malayalam", sans-serif;
   margin: 0;
+  padding: 0;
 }
 .titulo_academia .titulo_container div h1 span {
   color: #64ffda;
+}
+
+.presentacion {
+  height: 85vh;
+}
+.presentacion .presentacion_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.presentacion .presentacion_container .presentacion_1 {
+  padding: 0px;
+  color: #64ffda;
+  font-family: "Comfortaa", cursive;
+}
+.presentacion .presentacion_container .presentacion_2 {
+  line-height: 100%;
+  padding: 0px;
+  margin-bottom: 30px;
+  color: #ccd6f6;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+}
+.presentacion .presentacion_container .presentacion_3 {
+  padding: 0px;
+  margin-bottom: 30px;
+  color: #8892b0;
+  font-family: "Comfortaa", cursive;
+}
+.presentacion .presentacion_container .btn_1 {
+  border: 1px solid #64ffda;
+  border-radius: 5px;
+  padding: 15px 25px;
+  color: #64ffda;
+  font-family: "Comfortaa", cursive;
 }
 
 /*# sourceMappingURL=monitor.css.map */
