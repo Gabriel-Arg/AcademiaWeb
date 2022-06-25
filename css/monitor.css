@@ -5,16 +5,11 @@
 }
 
 body {
-  background: #1D4350;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #A43931, #1D4350);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #A43931, #1D4350);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #0a192f;
 }
 
 .titulo_academia {
-  background-color: #b8b8b8;
+  background-color: #0a192f;
   border-radius: 0px 0px 10px 10px;
   padding: 10px 0px;
 }
@@ -26,8 +21,9 @@ body {
 }
 .titulo_academia .titulo_container figure {
   margin: 0;
-  height: 4rem;
-  width: 4rem;
+  padding: 5px;
+  height: 3.5rem;
+  width: 3.5rem;
 }
 .titulo_academia .titulo_container figure img {
   width: 100%;
@@ -36,72 +32,12 @@ body {
   margin-left: 20px;
 }
 .titulo_academia .titulo_container div h1 {
-  color: #4c4c4c;
-  font-family: "Righteous", cursive;
+  color: #8892b0;
+  font-family: "Anek Malayalam", sans-serif;
   margin: 0;
 }
 .titulo_academia .titulo_container div h1 span {
-  color: #ffffff;
-}
-
-.presentacion {
-  height: auto;
-}
-.presentacion .presentacion_container {
-  height: auto;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.presentacion .presentacion_container .presentacion_animacion {
-  margin: 0;
-  padding: 0;
-}
-.presentacion .presentacion_container .presentacion_animacion .motor_animacion {
-  width: 200px;
-  height: 200px;
-}
-.presentacion .presentacion_container .presentacion_titulo {
-  font-family: "Josefin Sans", sans-serif;
-  color: #b8b8b8;
-}
-
-.lenguajes_fluid {
-  margin-top: 20px;
-  height: 80px;
-}
-.lenguajes_fluid .lenguajes_container {
-  height: 80px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.lenguajes_fluid .lenguajes_container .card_html {
-  background-color: #b8b8b8;
-  border-radius: 5px;
-  padding: 15px;
-  width: 300px;
-  height: 80px;
-  -webkit-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.63);
-  -moz-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.63);
-  box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.63);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.lenguajes_fluid .lenguajes_container .card_html h3 {
-  margin: 0;
-  font-family: "Righteous", cursive;
-  color: #4c4c4c;
-}
-.lenguajes_fluid .lenguajes_container .card_html img {
-  width: auto;
-  height: 100%;
+  color: #64ffda;
 }
 
 /*# sourceMappingURL=monitor.css.map */
