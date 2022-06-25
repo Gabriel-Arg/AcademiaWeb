@@ -21,4 +21,22 @@
         width: 160px;
         height: 60px;
     }
+
+    .presentacion .presentacion_container .presentacion_2 {
+        /* border: 1px dashed yellow; */
+        line-height: 100%;
+        padding: 0px;
+        margin-bottom: 30px;
+        color: #ccd6f6;
+        font-family: "Kanit", sans-serif;
+        font-weight: bold;
+        font-size: 4.5rem;
+    }
+
+    .presentacion .presentacion_container .presentacion_4 .btn_1 {
+        padding: 10px 20px;
+    }
+
+
+
 }

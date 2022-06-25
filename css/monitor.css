@@ -71,12 +71,26 @@ body {
   color: #8892b0;
   font-family: "Comfortaa", cursive;
 }
-.presentacion .presentacion_container .btn_1 {
+.presentacion .presentacion_container .presentacion_4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.presentacion .presentacion_container .presentacion_4 .btn_1 {
   border: 1px solid #64ffda;
   border-radius: 5px;
   padding: 15px 25px;
   color: #64ffda;
   font-family: "Comfortaa", cursive;
+  cursor: pointer;
+}
+.presentacion .presentacion_container .presentacion_4 .btn_1:hover {
+  color: #0a192f;
+  background-color: #64ffda;
+}
+.presentacion .presentacion_container .presentacion_4 #ultimo {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=monitor.css.map */
