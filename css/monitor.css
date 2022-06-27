@@ -43,6 +43,7 @@ body {
 
 .presentacion {
   height: 85vh;
+  margin-bottom: 50px;
 }
 .presentacion .presentacion_container {
   height: 100%;
@@ -91,6 +92,27 @@ body {
 }
 .presentacion .presentacion_container .presentacion_4 #ultimo {
   margin-left: 20px;
+}
+
+.triada {
+  height: auto;
+}
+.triada .triada-container {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.triada .triada-container .tarjeta {
+  background-color: #112240;
+  width: 350px;
+  height: 150px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 10px 10px 13px -10px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 10px 10px 13px -10px rgba(0, 0, 0, 0.51);
+  box-shadow: 10px 10px 13px -10px rgba(0, 0, 0, 0.51);
 }
 
 /*# sourceMappingURL=monitor.css.map */
