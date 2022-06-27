@@ -154,9 +154,58 @@ body {
             height: 150px;
             margin-bottom: 20px;
 
+            color: $color-azul-titulo;
+
             -webkit-box-shadow: 10px 10px 13px -10px rgba(0,0,0,0.51);
             -moz-box-shadow: 10px 10px 13px -10px rgba(0,0,0,0.51);
             box-shadow: 10px 10px 13px -10px rgba(0,0,0,0.51);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .tarjeta_sup {
+                // border: 1px dashed yellow;
+                width: 100%;
+                height: 30%;
+
+                h2 {
+                    margin-left: 20px;
+                    padding: 0;
+                    color: $color-cyan;
+                    font-family: $fuente-titulos;
+                }
+
+            }
+            .tarjeta_med {
+                border: 1px dashed crimson;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 40%;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                h3 {
+                    border: 1px dashed blue;
+                    margin: 0 0 0 20px;
+                    padding: 0;
+                }
+                .btn_huella {
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 20px;
+                }
+            }
+            .tarjeta_inf {
+                border: 1px dashed orangered;
+                width: 100%;
+                height: 30%;
+            }
 
         }
     }

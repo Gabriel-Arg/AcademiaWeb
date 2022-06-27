@@ -110,9 +110,50 @@ body {
   width: 350px;
   height: 150px;
   margin-bottom: 20px;
+  color: #8892b0;
   -webkit-box-shadow: 10px 10px 13px -10px rgba(0, 0, 0, 0.51);
   -moz-box-shadow: 10px 10px 13px -10px rgba(0, 0, 0, 0.51);
   box-shadow: 10px 10px 13px -10px rgba(0, 0, 0, 0.51);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.triada .triada-container .tarjeta .tarjeta_sup {
+  width: 100%;
+  height: 30%;
+}
+.triada .triada-container .tarjeta .tarjeta_sup h2 {
+  margin-left: 20px;
+  padding: 0;
+  color: #64ffda;
+  font-family: "Kanit", sans-serif;
+}
+.triada .triada-container .tarjeta .tarjeta_med {
+  border: 1px dashed crimson;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.triada .triada-container .tarjeta .tarjeta_med h3 {
+  border: 1px dashed blue;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+.triada .triada-container .tarjeta .tarjeta_med .btn_huella {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.triada .triada-container .tarjeta .tarjeta_inf {
+  border: 1px dashed orangered;
+  width: 100%;
+  height: 30%;
 }
 
 /*# sourceMappingURL=monitor.css.map */
