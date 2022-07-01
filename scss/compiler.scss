@@ -131,7 +131,7 @@ body {
 }
 
 // -------------------------
-//   TRIADA 1
+//   TRIADA DE 3 TARJETAS
 // -------------------------
 
 .triada {
@@ -170,41 +170,50 @@ body {
                 width: 100%;
                 height: 30%;
 
-                h2 {
-                    margin-left: 20px;
-                    padding: 0;
-                    color: $color-cyan;
-                    font-family: $fuente-titulos;
-                }
-
-            }
-            .tarjeta_med {
-                border: 1px dashed crimson;
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                height: 40%;
-
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
 
                 h3 {
-                    border: 1px dashed blue;
-                    margin: 0 0 0 20px;
+                    margin: 0;
                     padding: 0;
+                    font-family: $fuente-titulos;
+                    font-size: 1.3rem;
                 }
-                .btn_huella {
-                    width: 50px;
-                    height: 50px;
+                .tarjeta_numero {
+                    margin-left: 20px;
+                }
+                .tarjeta_titulo {
                     margin-right: 20px;
                 }
+
             }
+
             .tarjeta_inf {
-                border: 1px dashed orangered;
+                // border: 1px dashed crimson;
+                margin: 0;
+                padding:20px;
                 width: 100%;
-                height: 30%;
+                height: 70%;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+
+                .btn_iconos {
+                    // border: 1px dotted yellow;
+                    width: 50px;
+                    height: 50px;
+                    margin: 0px 15px 0px 0px;
+                }
+                .btn_ultimo_icono {
+                    // border: 1px dotted yellow;
+                    width: 50px;
+                    height: 50px;
+                    margin: 0px;
+                }
             }
 
         }
