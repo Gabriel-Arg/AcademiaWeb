@@ -210,6 +210,11 @@ body {
                     margin: 0px 15px 0px 0px;
                     padding: 5px;
                     cursor: pointer;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                 }
                 .btn_ultimo_icono {
                     // border: 1px dotted yellow;
@@ -218,6 +223,11 @@ body {
                     margin: 0px;
                     padding: 5px;
                     cursor: pointer;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                 }
             }
 
