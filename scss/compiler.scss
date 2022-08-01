@@ -137,104 +137,44 @@ body {
 // -------------------------
 //   TRIADA DE 3 TARJETAS
 // -------------------------
+.tarjetas_fluid {
+    border: 1px dashed red;
+    margin: 0;
+    padding: 5px 0px;
 
-.triada {
-    // border: 1px dashed red;
-    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 
-    .triada-container {
-        // border: 1px dashed rgb(255, 0, 187);
-        height: auto;
+    .tarjetas_container {
+        border: 1px dashed orange;
+        margin: 0;
+        padding: 0;
 
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-flow: row wrap;
+        justify-content: space-between;
         align-items: center;
 
-        .tarjeta {
-            background-color: $color-azul-tarjeta;
-            width: 350px;
-            height: 150px;
-            margin-bottom: 20px;
-
-            color: $color-azul-titulo;
-
-            -webkit-box-shadow: 10px 10px 13px -10px rgba(0,0,0,0.51);
-            -moz-box-shadow: 10px 10px 13px -10px rgba(0,0,0,0.51);
-            box-shadow: 10px 10px 13px -10px rgba(0,0,0,0.51);
+        .tarjeta_1 {
+            border: 1px solid $color-cyan;
+            border-radius: 5px;
+            width: 175px;
+            height: 80px;
+            margin: 5px 0px;
 
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
 
-            .tarjeta_sup {
-                // border: 1px dashed yellow;
+            .tarjeta_1_seccion1 {
+                border-bottom: 1px solid $color-cyan;
                 width: 100%;
-                height: 30%;
-                padding-top: 20px;
-
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-
-                h3 {
-                    margin: 0;
-                    padding: 0;
-                    font-family: $fuente-parrafos;
-                    font-size: 1.3rem;
-                }
-                .tarjeta_numero {
-                    margin-left: 20px;
-                }
-                .tarjeta_titulo {
-                    margin-right: 20px;
-                }
-
+                height: 15px;
             }
-
-            .tarjeta_inf {
-                // border: 1px dashed crimson;
-                margin: 0;
-                padding:20px;
-                width: 100%;
-                height: 70%;
-
-                display: flex;
-                flex-direction: row;
-                justify-content: flex-end;
-                align-items: center;
-
-                .btn_iconos {
-                    // border: 1px dotted yellow;
-                    width: 45px;
-                    height: 45px;
-                    margin: 0px 15px 0px 0px;
-                    padding: 5px;
-                    cursor: pointer;
-
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                }
-                .btn_ultimo_icono {
-                    // border: 1px dotted yellow;
-                    width: 45px;
-                    height: 45px;
-                    margin: 0px;
-                    padding: 5px;
-                    cursor: pointer;
-
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                }
-            }
-
         }
+
     }
 }
