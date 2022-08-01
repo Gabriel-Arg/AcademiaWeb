@@ -11,14 +11,13 @@ body {
 }
 
 // -------------------------
-//   TUTULO HTML Y CSS
+//   BANNER INICIAL
 // -------------------------
 
 .titulo_academia {
     // border: 1px dashed red;
     background-color: $color-azul-fondo;
-    border-radius: 0px 0px 10px 10px;
-    padding: 10px 0px;
+    padding: 10px 0px 0px 0px;
 
     .titulo_container {
         // border: 1px dashed blue;
@@ -31,9 +30,13 @@ body {
         figure {
             // border: 1px dashed yellow;
             margin: 0;
-            padding: 5px;
-            height: 3.5rem;
-            width: 3.5rem;
+            height: 2rem;
+            width: 2rem;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
 
             img {
                 width: 100%;
@@ -42,11 +45,12 @@ body {
         
         div {
             // border: 1px dashed orange;
-            margin-left: 20px;
+            // margin-left: 20px;
 
             h1 {
                 color: $color-azul-titulo;
                 font-family: $fuente-subtitulo;
+                font-size: 1.4rem;
                 margin: 0;
                 padding: 0;
 
