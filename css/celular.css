@@ -41,6 +41,10 @@
         padding: 10px 20px;
     }
 
+    .card_fluid .card_container {
+        flex-direction: column;
+    }
+
 
 
 }

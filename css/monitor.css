@@ -108,7 +108,6 @@ body {
 .card_fluid {
   border: 1px dashed red;
   margin-top: 10px;
-  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -118,6 +117,10 @@ body {
   border: 1px dashed yellow;
   padding: 0;
   width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .card_fluid .card_container .tarjeta_1 {
   border: 1px solid #64ffda;
@@ -183,8 +186,29 @@ body {
 }
 .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion3 {
   border: 1px dashed #d32be2;
-  width: 100%;
+  border-radius: 5px;
+  width: 95%;
   height: 40%;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion3 .tarjeta_1_seccion3_icon {
+  border-radius: 50%;
+  width: 30px;
+  margin: 0 8px 0 0;
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion3 .tarjeta_1_seccion3_icon img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=monitor.css.map */
