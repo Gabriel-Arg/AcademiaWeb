@@ -106,7 +106,6 @@ body {
 }
 
 .card_fluid {
-  border: 1px dashed red;
   margin-top: 10px;
   display: flex;
   flex-direction: row;
@@ -185,20 +184,20 @@ body {
   margin-right: 5px;
 }
 .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion3 {
-  border: 1px dashed #d32be2;
+  border: 1px dashed rgba(220, 20, 60, 0.415);
   border-radius: 5px;
   width: 95%;
   height: 40%;
   margin-bottom: 5px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
 }
 .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion3 .tarjeta_1_seccion3_icon {
   border-radius: 50%;
-  width: 30px;
-  margin: 0 8px 0 0;
+  width: 20px;
+  margin: 0;
   padding: 3px;
   display: flex;
   flex-direction: row;

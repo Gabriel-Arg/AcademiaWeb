@@ -151,7 +151,7 @@ body {
 // -------------------------
 
 .card_fluid {
-    border: 1px dashed red;
+    // border: 1px dashed red;
     margin-top: 10px;
 
     display: flex;
@@ -246,7 +246,7 @@ body {
             }
 
             .tarjeta_1_seccion3 {
-                border: 1px dashed rgb(211, 43, 226);
+                border: 1px dashed rgba(220, 20, 60, 0.415);
                 border-radius: 5px;
                 width: 95%;
                 height: 40%;
@@ -254,15 +254,15 @@ body {
 
                 display: flex;
                 flex-direction: row;
-                justify-content: flex-start;
+                justify-content: space-around;
                 align-items: center;
 
                 .tarjeta_1_seccion3_icon {
                     // border: 1px dashed yellow;
                     // background-color: rgba(0, 255, 174, 0.198);
                     border-radius: 50%;
-                    width: 30px;
-                    margin: 0 8px 0 0;
+                    width: 20px;
+                    margin: 0;
                     padding: 3px;
 
                     display: flex;
