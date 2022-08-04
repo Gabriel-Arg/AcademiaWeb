@@ -41,11 +41,50 @@
         border-radius: 5px;
         width: 100%;
         height: 175px;
-        margin: 5px 0px;
+        margin: 15px 0px;
     }
 
+    .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion1 {
+        height: 25px;
+    }
 
+    .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion1 .puntos {
+        /* border: 1px dashed red; */
+        width: 60px;
+    }
 
+    .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion1 .puntos .puntos_3 {
+        border: 1px solid #8892b0;
+        border-radius: 50%;
+        height: 11px;
+        width: 11px;
+        margin-right: 5px;
+    }
+
+    .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion1 .puntos .punto_luz {
+        height: 11px;
+        width: 11px;
+        margin-right: 7px;
+    }
+
+    .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion2 {
+        /* border: 1px dashed blueviolet; */
+        padding: 0px 13px;
+    }
+
+    .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion2 .tarjeta_1_titulo {
+        font-size: 1.3rem;
+    }
+
+    .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion2 #tarjeta_numero {
+        margin-right: 0px;
+    }
+
+    .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion3 .tarjeta_1_seccion3_icon {
+        /* border: 1px dashed yellow; */
+        width: 40px;
+        padding: 5px;
+    }
 
 
 

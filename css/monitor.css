@@ -113,12 +113,12 @@ body {
   align-items: center;
 }
 .card_fluid .card_container {
-  border: 1px dashed yellow;
   padding: 0;
   width: 95%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 .card_fluid .card_container .tarjeta_1 {
@@ -126,7 +126,7 @@ body {
   border-radius: 5px;
   width: 175px;
   height: 80px;
-  margin: 5px 0px;
+  margin: 10px 2%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -143,7 +143,7 @@ body {
 }
 .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion1 .puntos {
   height: 100%;
-  width: 40px;
+  width: 35px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -152,15 +152,15 @@ body {
 .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion1 .puntos .puntos_3 {
   border: 1px solid #8892b0;
   border-radius: 50%;
-  height: 8px;
-  width: 8px;
+  height: 6px;
+  width: 6px;
   margin-right: 3px;
 }
 .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion1 .puntos .punto_luz {
   border: 1px solid #8892b0;
   border-radius: 50%;
-  height: 8px;
-  width: 8px;
+  height: 6px;
+  width: 6px;
   margin-right: 5px;
 }
 .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion2 {
@@ -184,7 +184,6 @@ body {
   margin-right: 5px;
 }
 .card_fluid .card_container .tarjeta_1 .tarjeta_1_seccion3 {
-  border: 1px dashed rgba(220, 20, 60, 0.415);
   border-radius: 5px;
   width: 95%;
   height: 40%;
